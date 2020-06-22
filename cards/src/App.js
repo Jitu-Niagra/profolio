@@ -23,7 +23,7 @@ function App() {
         <Route path="/about" component={About}/>
         <Route path="/skills" component={Skills}/>
         <Route path="/project" component={Projects}/>
-        <Route   component={ErrorPage}/>
+        {/* <Route   component={ErrorPage}/> */}
       </Switch>
       
 
